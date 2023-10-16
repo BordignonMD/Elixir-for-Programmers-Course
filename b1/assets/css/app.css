@@ -1,0 +1,49 @@
+/* This file is for your main application CSS */
+@import "./phoenix.css";
+
+.status {
+  margin-bottom: 3vh;
+}
+
+.status.initializing {
+  color: #D883C5;
+}
+
+.status.good-guess {
+  color: green;
+}
+
+.status.bad-guess {
+  color: red;
+}
+
+.status.won {
+  color: darkgreen;
+  font-weight: bold;
+}
+
+.status.lost {
+  color: crimson;
+  font-weight: bold;
+}
+
+.status.already-used {
+  color: #CAA;
+}
+
+.tally th {
+  font-weight: normal;
+  color: #AAA;
+}
+
+.tally td {
+  font-weight: bold;
+  font-size: 2rem;
+  letter-spacing: 0.25rem;
+}
+
+form input {
+  max-width: 4rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
